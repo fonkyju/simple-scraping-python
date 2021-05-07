@@ -1,7 +1,6 @@
 # content of test_sample.py
 
 import pytest
-import requests
 import bs4
 from bs4 import BeautifulSoup
 from function import extract_id, extract_published, extract_title, extract_city, extract_price, extract_url
