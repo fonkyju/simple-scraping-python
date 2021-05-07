@@ -20,9 +20,8 @@ This project is coded with Python@3.9.4
 
 Install all dependencies with `pip` or your favorite PyPi package manager.
 
-Example :
 ```
-pip install rich
+pip install -r requirements.txt
 ```
 
 
