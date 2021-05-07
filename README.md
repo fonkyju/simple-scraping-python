@@ -6,7 +6,7 @@
 
 This project is a simple example of web scraping which allows to crawl web pages with paginations and to extract data from the target site.
 
-For the example I created my own local VHOST but we can of course crawl external urls.
+For the example I created my own local vhost but we can of course crawl external urls.
 
 ## Installing
 
