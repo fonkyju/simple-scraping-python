@@ -1,3 +1,4 @@
+![CircleCI](https://img.shields.io/circleci/build/github/fonkyju/simple-scraping-python)
 [![Blog](https://img.shields.io/badge/blog-news-yellowgreen)](https://www.julienkrier.fr/articles)
 [![Twitter Follow](https://img.shields.io/twitter/follow/julienkrier?style=social)](https://twitter.com/julienkrier)
 
