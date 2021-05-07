@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: Workflow for Codecov
 on: [push]
 jobs:
