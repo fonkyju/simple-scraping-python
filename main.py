@@ -10,13 +10,13 @@ from rich.table import Table
 from function import extract_id, extract_published, extract_title, extract_city, extract_price, extract_url
 
 # general parameters
-mySearches      = ["informatique.html", "multimedia.html"]
-announcements   = []
 host            = "http://www.monsite.fr/"
 directory       = "annonces/"
+mySearches      = ["informatique.html", "multimedia.html"]
+max_results     = 2 # default pagination number
+announcements   = []
 
 # extract file parameters
-max_results = 2 #pagination number
 columns = ["id", "publie", "titre", "ville", "prix", "url"]
 sample_df = pd.DataFrame(columns = columns)
 
