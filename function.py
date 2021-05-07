@@ -1,6 +1,6 @@
-import regex
+# function.py
 
-# functions
+import regex
 
 #####################
 # extract_id function
