@@ -1,0 +1,8 @@
+requests
+bs4
+pandas
+time
+rich
+rich.console
+rich.table
+regex
