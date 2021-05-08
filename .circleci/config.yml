@@ -41,6 +41,11 @@ jobs:
           # This assumes pytest is installed via the install-package step above
           command: pytest
 
+      - run:
+          command: |
+            echo Running test
+            mkdir -p test-results
+
       - store_test_results:
           path: test-results
 
