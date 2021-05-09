@@ -5,3 +5,5 @@ pandas
 rich
 regex
 pytest
+coverage
+pytest-cov
