@@ -20,13 +20,13 @@ def extract_published(div):
     target = div.find("span", attrs={"class": "published"})
 
     today = regex.search(r"(nouveau)", target.text)
-    otherday = [int(i) for i in target.text.split() if i.isdigit()]
 
     if(today):
       day = 0
-
-    if(otherday):
-      day = otherday[0]
+    else :
+        otherday = [int(i) for i in target.text.split() if i.isdigit()]
+        if(otherday):
+          day = otherday[0]
 
     return day
   except:
