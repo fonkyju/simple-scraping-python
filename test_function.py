@@ -19,6 +19,13 @@ def div2():
     div = soup.find(name="div", attrs={"class":"row"})
     return div
 
+@pytest.fixture
+def div3():
+    html = open("./annonces/test2.html", "r")
+    soup = BeautifulSoup(html, "lxml", from_encoding="utf-8")
+    div = soup.find(name="div", attrs={"class":"row"})
+    return div
+
 def test_extract_id(div):
     assert extract_id(div) == "987654"
 
@@ -30,6 +37,9 @@ def test_extract_published(div):
 
 def test_bad_extract_published(div2):
     assert extract_published(div2) == "Nothing_found"
+
+def test_extract_published_with_text_not_expected(div3):
+    assert extract_published(div3) == "Nothing_found"
 
 def test_extract_title(div):
     assert extract_title(div) == "Titre de l'annonce 1"
