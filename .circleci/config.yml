@@ -39,7 +39,12 @@ jobs:
       - run:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
-          command: pytest
+          command: pytest --cov=./
+
+      - run:
+          command: |
+            echo 'Generate Coverage.xml'
+            coverage xml
 
       - run:
           command: |
