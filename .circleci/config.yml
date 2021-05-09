@@ -55,3 +55,9 @@ jobs:
       - codecov/upload:
           file: coverage.xml
           token: 62b5eefb-fc21-4059-b869-c4a2003557a9
+
+      - run:
+            name: Code has arrived
+            command: |
+              ls -al
+              echo '^^^That should look familiar^^^'
