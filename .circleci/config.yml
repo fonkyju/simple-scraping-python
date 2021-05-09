@@ -43,7 +43,7 @@ jobs:
 
       - run:
           command: |
-            echo Running test
+            echo Create directory
             mkdir -p test-results
 
       - store_test_results:
