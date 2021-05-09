@@ -43,7 +43,7 @@ jobs:
 
       - run:
           command: |
-            echo Running test
+            echo Create directory
             mkdir -p test-results
 
       - store_test_results:
@@ -54,3 +54,4 @@ jobs:
 
       - codecov/upload:
           file: coverage.xml
+          token: 62b5eefb-fc21-4059-b869-c4a2003557a9
