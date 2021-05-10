@@ -13,7 +13,7 @@ from function import extract_id, extract_published, extract_title, extract_city,
 host            = "http://www.monsite.fr/"
 directory       = "annonces/"
 mySearches      = ["informatique.html", "multimedia.html"]
-max_results     = 2 # default pagination number
+maxResults      = 2 # default pagination number
 announcements   = []
 
 # extract file parameters
@@ -29,7 +29,7 @@ for mySearch in mySearches:
   urlToCrawl = host+directory+mySearch
 
   # iterate on pagination if exists
-  for start in range(0, max_results, 1):
+  for start in range(0, maxResults, 1):
       urlToCrawlWithPagination = urlToCrawl+'?page=' + str(start)
       print("Work on : " + urlToCrawlWithPagination)
 
