@@ -31,7 +31,7 @@ for mySearch in mySearches:
   # iterate on pagination if exists
   for start in range(0, maxResults, 1):
       urlToCrawlWithPagination = urlToCrawl+'?page=' + str(start)
-      print("Work on : " + urlToCrawlWithPagination)
+      print("Get Url : " + urlToCrawlWithPagination)
 
       page = requests.get(urlToCrawlWithPagination)
       time.sleep(1)  #ensuring at least 1 second between page grabs
