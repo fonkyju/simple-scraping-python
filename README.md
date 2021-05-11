@@ -3,6 +3,7 @@
 [![Blog](https://img.shields.io/badge/blog-news-yellowgreen)](https://www.julienkrier.fr/articles)
 [![Twitter Follow](https://img.shields.io/twitter/follow/julienkrier?style=social)](https://twitter.com/julienkrier)
 
+![Logo](https://raw.githubusercontent.com/fonkyju/simple-scraping-python/master/.github/images/simple-scraping-python.jpg)
 
 # Simple Scraping Python
 
