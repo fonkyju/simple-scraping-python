@@ -3,6 +3,11 @@
 [![Blog](https://img.shields.io/badge/blog-news-yellowgreen)](https://www.julienkrier.fr/articles)
 [![Twitter Follow](https://img.shields.io/twitter/follow/julienkrier?style=social)](https://twitter.com/julienkrier)
 
+<<<<<<< HEAD
+=======
+![Logo](https://raw.githubusercontent.com/fonkyju/simple-scraping-python/master/.github/images/simple-scraping-python-logo.jpg)
+
+>>>>>>> 0ed2d040a24d6139678928a02efb81e940e4c9fc
 # Simple Scraping Python
 
 ![Logo](https://raw.githubusercontent.com/fonkyju/simple-scraping-python/master/.github/images/simple-scraping-python.jpg)
