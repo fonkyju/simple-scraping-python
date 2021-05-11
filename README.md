@@ -3,8 +3,9 @@
 [![Blog](https://img.shields.io/badge/blog-news-yellowgreen)](https://www.julienkrier.fr/articles)
 [![Twitter Follow](https://img.shields.io/twitter/follow/julienkrier?style=social)](https://twitter.com/julienkrier)
 
-
 # Simple Scraping Python
+
+![Logo](https://raw.githubusercontent.com/fonkyju/simple-scraping-python/master/.github/images/simple-scraping-python.jpg)
 
 This project is a simple example of web scraping which allows to crawl web pages with paginations and extract data from the target site.
 
