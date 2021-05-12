@@ -72,4 +72,5 @@ jobs:
             name: Code has arrived
             command: |
               ls -al
+              cat /home/circleci/project/test-results/junit.xml
               echo '^^^That should look familiar^^^'
