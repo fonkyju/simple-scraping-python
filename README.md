@@ -36,7 +36,7 @@ You need to change the web site parameters
 host            = "http://www.monsite.fr/"
 directory       = "annonces/"
 mySearches      = ["informatique.html", "multimedia.html"]
-max_results     = 2 # default pagination number
+maxResults      = 2 # default pagination number
 ```
 
 
